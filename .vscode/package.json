@@ -1,0 +1,33 @@
+{
+    "name": "metaverse",
+    "version": "5.12.4" ,
+    "license": "MIT" ,
+    "keywords": [
+        "metaverse",
+       "virtual reality",
+       "augmented reality",
+       "snow crash"
+    ],
+    "main": "app.js" ,
+    "repository": { 
+        "type": "git", 
+        "url": "https://github.com/bnb/metaverse.git" 
+    },
+    "scripts": { 
+        "build": "tsc", 
+        "test": "standard" 
+    },
+    "dependencies": { 
+        "async": "^0.2.10", 
+       "npm2es": "~0.4.2", 
+       "optimist": "~0.6.0", 
+       "request": "~2.30.0",
+       "skateboard": "^1.5.1",
+       "split": "^0.3.0",
+       "weld": "^0.2.2"
+    }, 
+    "devDependencies": {
+        "escape-html": "^1.0.3", 
+        "lucene-query-parser": "^1.0.1" 
+    }
+}
