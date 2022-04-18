@@ -4,7 +4,13 @@
         "type": "cppbuild",
         "label": "C/C++: g++.exe build active file",
         "command": "D:/Downloads/MingGW_new/MingGW/mingw64/bin/g++.exe",
-        "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
+        "args": [
+          "-g", 
+          "${file}", 
+          "-o", 
+          "${fileDirname}\\${fileBasenameNoExtension}.exe",
+          "D:/Downloads/MingGW_new/MingGW/mingw64/include"
+        ],
         "options": {
           "cwd": "${fileDirname}"
         },
