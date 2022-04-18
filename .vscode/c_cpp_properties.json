@@ -3,7 +3,13 @@
         {
             "name": "GCC",
             "includePath": [
-                "${workspaceFolder}/**"
+                "D:/Downloads/MingGW_new/MingGW/mingw64/include",
+                "D:/yh/others/Project/lib-OpenSceneGraph-master/include",
+                "D:/yh/others/Project/lib-Sophus-master",
+                "D:/yh/others/Project/lib-MeshSDFilter-master/external",
+                "D:/yh/others/Project/lib-eigen-master/Eigen",
+                "D:/yh/others/Project/lib-glut-master/include"
+                
             ],
             "defines": [
                 "_DEBUG",
