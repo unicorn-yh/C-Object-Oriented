@@ -67,7 +67,19 @@
         "thread": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "graphicscontext": "cpp",
+        "string_view": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "bufferobject": "cpp",
+        "image": "cpp",
+        "mixinvector": "cpp",
+        "texture": "cpp",
+        "uniform": "cpp",
+        "vertexarraystate": "cpp",
+        "buffered_value": "cpp",
+        "fast_back_stack": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
