@@ -18,7 +18,7 @@ class MArray{
             cout<<endl;
         }    
 };
-int main1(){
+int main(){
 	MArray<int> intArray(5);	 // 5 is the number of elements
 	for (int i = 0; i<5; i++)
 		intArray.elem[i] = i*i;
@@ -29,10 +29,4 @@ int main1(){
     intArray.getElem();       // display: 0, 1, 4, 9, 16,
     stringArray1.getElem();   // display: string0, string1,
 	return 0;
-}
-int main(){
-    cout<<"Wolf::Eat"<<endl;
-    cout<<"Wolf likes to eat meat."<<endl;
-    cout<<"Tiger::Eat"<<endl;
-    cout<<"Tiger likes to eat meat."<<endl;
 }
